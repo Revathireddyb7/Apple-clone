@@ -1,0 +1,52 @@
+*{
+    font-family:"Outfit";
+}
+body{
+    overflow-x: hidden;
+}
+
+.main{
+    background-color: gray;
+    width: 100%;
+    margin: -1%;
+    padding: 2%;
+    
+}
+h1{
+    color: white;
+}
+.parent{
+    gap: 20px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.child{
+    width: 80%;
+    height: 250px;
+    background-color:rgba(249, 249, 249, 0.651);
+   margin-left: 10%;
+   margin-bottom: 1%;
+}
+.child ul{
+    margin-top: 6%;
+}
+.child ul li{
+    width: 50%;
+    font-size: 16px;
+}
+.imgdiv{
+    width: 50%;
+    gap: 40px;
+    margin-top: -256%;
+    margin-left: 40%;
+    padding-top: 3%;
+}
+.imgdiv img{
+    float: right;
+    width: 350px;
+    height: 220px;
+    margin-top: 10%;
+    margin-right: 2%;
+
+}
