@@ -1,0 +1,129 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    font-family: "Outfit";
+}
+::-webkit-scrollbar{
+    width: 8px;
+
+}
+::-webkit-scrollbar-track{
+    background-color: gray;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(243, 234, 235, 0.913);
+    height: 5px;
+    border-radius: 15px;
+}
+.con{
+    height: 100vh;
+    width: 100%;
+}
+.con ul{
+    display: flex;
+    gap: 70px;
+    margin-left: 20%;
+    
+}
+ul li{
+    list-style: none;
+    cursor: pointer;
+    margin-top: 2%;
+}
+li i{
+    font-size: 28px;
+  
+}
+header{
+    background-color: rgba(18, 13, 13, 0.692);
+    height: 55px;
+    width: 100%;
+    margin: -1% 0% 0% -1%;
+    padding: 0px 20px 0px 10px;
+    color: white;
+}
+
+header:hover{
+    background:linear-gradient(maroon,black);
+}
+.main{
+    text-align: center;
+}
+p{
+   font-size: 18px;
+}
+h1{
+    font-size: 70px;
+}
+h4{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.imgdv{
+    width: 100%;
+    height: 800px;
+    background: url("https://www.apple.com/v/iphone-13/e/images/meta/iphone-13_overview__fpjuzw2ncqmy_og.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.mac{
+    margin-top: 2%;
+    width: 100%;
+    height: 800px;
+    background: url("https://www.apple.com/newsroom/images/product/mac/standard/Apple-MacBook-Pro-M2-Pro-and-M2-Max-hero-230117_Full-Bleed-Image.jpg.large.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.watch{
+    margin-top: 2%;
+    width: 100%;
+    height: 800px;
+    background: url("https://www.apple.com/v/apple-watch-series-7/c/images/overview/hero/hero_colors_green__beokeads7ng2_large.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.imini{
+    margin-top: 2%;
+    width: 100%;
+    height: 800px;
+    background: url("https://images.macrumors.com/article-new/2013/09/ipad-mini-6-lineup.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;   
+}
+.pods{
+    margin-top: 2%;
+    width: 100%;
+    height: 800px;
+    background: url("https://media.wired.com/photos/618048b16fe08d62522d94c2/3:2/w_2400,h_1600,c_limit/Gear-Apple-Airpods-3-2021-Review.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;      
+}
+footer{
+    width: 100%;
+    background-color: rgba(219, 211, 211, 0.658);
+    margin-bottom: 8%;
+}
+h6{
+    font-size: 15px;
+    margin-left: 5%;
+    border-top: 2px solid black;
+}
+footer p{
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 3%;
+}
