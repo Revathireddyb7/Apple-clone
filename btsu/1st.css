@@ -1,0 +1,53 @@
+*{
+    font-family: "Outfit";
+    letter-spacing: 2px;
+}
+
+body{
+    overflow: hidden;
+    background: url("https://wallpapers.com/images/hd/bts-love-yourself-1921-x-1081-wallpaper-z5m9310e1qi9udol.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    width: 30%;
+    border-radius:10px ;
+    text-align: center;
+    float: right;
+    color: white;
+}
+.parent{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+
+  
+}
+.child{
+    width: 20%;
+    margin-left: 50px;   
+    height: 130px;
+    text-align: center;
+    padding-top:30px ;
+    background: rgba(0,0,0,0.2);
+}
+
+.child-2{
+    width: 100%;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+.maknae{
+    width: 20%;
+    margin-left: 30px;   
+    height: 130px;
+    text-align: center;
+    padding-top:30px ;
+    background: rgba(0,0,0,0.2);
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
