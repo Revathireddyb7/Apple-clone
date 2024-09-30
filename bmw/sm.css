@@ -1,0 +1,252 @@
+*{
+    font-family: "Outfit";
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    height: 75px;
+    width: 60%;
+    margin-top: -1%;
+    margin-left: 22%;
+    position: absolute;
+    border-bottom: 1px solid white;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    padding-top:3% ;
+    gap: 30px;
+}
+#ul li,#ul1 li{
+    list-style: none;
+    color: white;
+    padding-bottom: 13px;
+    
+}
+header ul li:hover{
+    border-bottom: 3px solid white;
+    font-weight: 550;
+}
+.main{
+    height: 550px;
+    width: 100%;
+    margin-top: -1%;
+    padding-left: 5%;
+    margin-left: -1%;
+    background: url("https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/Images/all-models/BMW%20Series/BMW%20M%20series/bmw-m2-coupe/m2-coupe-banner-dsktop.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1686117913429.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+}
+.main h3{
+    letter-spacing: 2;
+    padding-top: 15%;
+    color: white;
+}
+.main h4{
+    letter-spacing: 2;
+    color: white;
+    font-weight: 200;
+}
+h4 img{
+    width: 7%;
+    
+}
+.btdv{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 20%;
+    background-color: gray;
+    height: 50px;
+    margin-bottom: 1%;
+    font-size: 15px;
+    font-weight: 500;
+    color:white;
+    border: none;
+    background-color: rgb(43, 76, 226);
+}
+
+.main ul{
+    margin-top: 3%;
+    display: flex;
+    gap: 20px;
+}
+li h4{
+    font-weight: 400;
+}
+.h6{
+    display: flex;
+    gap: 50px;
+    margin-top: -5.5%;
+    margin-left: 4%;
+    color: white;
+}
+.h6 h6{
+   
+    font-size: 14px;
+    font-weight: 200;
+}
+.info{
+    padding: 3%;
+}
+.info h4{
+    width: 80%;
+    font-weight: 250;
+    font-size: 20px;
+}
+.info h3{
+    font-weight: 280;
+    font-size: 24px;
+}
+.whole{
+    width: 100%;
+    background: url("https://www.bmw.in/content/dam/bmw/common/all-models/m-series/m2-coupe/2022/Highlights/bmw-m-series-m2-coupe-gallery-image-impressions-01_1920.jpg.asset.1708078813442.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+}
+.body{
+    width: 100%;
+    background: url("https://www.bmw.in/content/dam/bmw/common/all-models/m-series/m2-coupe/2022/Highlights/bmw-m-series-m2-coupe-mc-technologies-hero-desktop.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1663324562370.jpg");
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+    margin-top: 2%;
+}
+.inte{
+    width: 100%;
+    background: url("https://www.bmw.in/content/dam/bmw/common/all-models/m-series/m2-coupe/2022/Highlights/bmw-m-series-m2-coupe-gallery-image-impressions-05_890.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+}
+.roof{
+    width: 100%;
+    background: url("https://www.bmw.in/content/bmw/marketIN/bmw_in/en_IN/all-models/m-series/m2-coupe/2023/bmw-2-series-coupe-m-automobiles-highlights/jcr:content/par/multicontent/tabs/multicontenttab/items/smallteaser_1332484126/image.transform/smallteaser/image.1667849050843.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+}
+.imgdv{
+    width: 94%;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    margin-left: 3%;
+
+}
+.imgdv img{
+    width: 50%;
+}
+.info h1{
+    font-weight: 300;
+    font-size: 35px;
+}
+.dt1{
+    width: 48%;
+    margin-left: 47%;
+    margin-top: -20%;
+}
+.dt1 li{
+    padding-top: 2px;
+    list-style: none;
+    padding-bottom: 3px;
+}
+.dt1 li p{
+    margin-top: -2%;
+    margin-left: 65%;
+    font-weight: 600;
+}
+.info li{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.fndv{
+    width: 90%;
+    height: 150px;
+    gap: 10px;
+    display: flex;
+    margin-left: 5%;
+}
+.child{
+width: 25%;
+background-color: rgba(171, 171, 171, 0.836);
+text-align: center;
+}
+.child i{
+    font-size: 40px;
+    margin-top: 20%;
+    color: rgba(0, 0, 0, 0.76);
+}
+.child p{
+color: rgb(109, 109, 109);
+font-size: 18px;
+}
+.child:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+#lst{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 2%;
+    
+}
+footer{
+    width: 100%;
+    display: flex;
+    height: 400px;
+    padding: 3%;
+    background-color: rgb(240, 233, 233);
+    margin-left: -1%;
+    margin-right: -1%;
+    cursor: pointer;
+}
+footer ul{
+    width: 22%;
+    font-size: 18px;
+    list-style: none;
+    line-height: 35px;
+    
+}
+footer ul h4{
+    font-size: 15px;
+    font-weight: 200;
+}
+.icdv{
+    margin-top: 25%;
+    display: flex;
+    gap: 25px;
+    margin-left: -99%;
+    margin-bottom: 3%;
+    
+}
+.icdv i{
+    font-size: 20px;
+}
+#final{
+    float: right;
+    display: flex;
+    gap: 30px;
+    margin-top: -5%;
+    list-style: none;
+    font-size: 12px;
+    padding: 2%;
+    margin-right: 7%;
+    font-weight: 500;
+}
+button:hover{
+    cursor: pointer;
+}
